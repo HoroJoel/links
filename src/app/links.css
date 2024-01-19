@@ -1,0 +1,90 @@
+/* UserProfile.css */
+.profile-container {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 300px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: hsla(48, 69%, 28%, 1);
+  background: hsla(213, 77%, 14%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(213, 77%, 14%, 1) 0%,
+    hsla(207, 98%, 16%, 1) 44%,
+    hsla(202, 45%, 32%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(213, 77%, 14%, 1) 0%,
+    hsla(207, 98%, 16%, 1) 44%,
+    hsla(202, 45%, 32%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(213, 77%, 14%, 1) 0%,
+    hsla(207, 98%, 16%, 1) 44%,
+    hsla(202, 45%, 32%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203e", endColorstr="#012C4F", GradientType=1 );
+}
+.profile-video {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0em;
+}
+.profile-header > h1 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.profile-header {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header > img {
+  width: 7em;
+  height: 7em;
+}
+
+.profile-picture,
+.profile-picture > img {
+  border: solid 1px white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-content {
+  align-self: center;
+  width: 100%;
+  max-width: 60vw;
+}
+
+.profile-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.profile-footer {
+  margin-top: 20px;
+  font-size: 0.7em;
+}
